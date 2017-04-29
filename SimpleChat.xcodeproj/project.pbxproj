@@ -19,6 +19,7 @@
 		C450E3BB1EB09BBF00AF0852 /* SimpleChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C450E3BA1EB09BBF00AF0852 /* SimpleChatUITests.swift */; };
 		C450E3CB1EB0A79700AF0852 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C450E3CA1EB0A79700AF0852 /* GoogleService-Info.plist */; };
 		C450E3CD1EB0B13000AF0852 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C450E3CC1EB0B13000AF0852 /* User.swift */; };
+		C4D3658E1EB0C3E80038E797 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D3658D1EB0C3E80038E797 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		C450E3BC1EB09BBF00AF0852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C450E3CA1EB0A79700AF0852 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C450E3CC1EB0B13000AF0852 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4D3658D1EB0C3E80038E797 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		E6126B69ACDB6863BE389F05 /* Pods-SimpleChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleChatUITests/Pods-SimpleChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,14 +143,15 @@
 		C450E3991EB09BBF00AF0852 /* SimpleChat */ = {
 			isa = PBXGroup;
 			children = (
+				C450E3CC1EB0B13000AF0852 /* User.swift */,
 				C450E39A1EB09BBF00AF0852 /* AppDelegate.swift */,
 				C450E39C1EB09BBF00AF0852 /* UserListViewController.swift */,
+				C4D3658D1EB0C3E80038E797 /* ChatViewController.swift */,
 				C450E39E1EB09BBF00AF0852 /* Main.storyboard */,
 				C450E3A11EB09BBF00AF0852 /* Assets.xcassets */,
 				C450E3A31EB09BBF00AF0852 /* LaunchScreen.storyboard */,
 				C450E3A61EB09BBF00AF0852 /* Info.plist */,
 				C450E3CA1EB0A79700AF0852 /* GoogleService-Info.plist */,
-				C450E3CC1EB0B13000AF0852 /* User.swift */,
 			);
 			path = SimpleChat;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 			files = (
 				C450E39D1EB09BBF00AF0852 /* UserListViewController.swift in Sources */,
 				C450E39B1EB09BBF00AF0852 /* AppDelegate.swift in Sources */,
+				C4D3658E1EB0C3E80038E797 /* ChatViewController.swift in Sources */,
 				C450E3CD1EB0B13000AF0852 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

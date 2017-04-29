@@ -10,10 +10,12 @@ internal class User {
     internal let id: String
     internal let name: String
     internal let image: String
+    internal let selected: Bool
     
-    init(id: String, name: String, image:String) {
+    init(id: String, name: String, image:String, selected: Bool) {
         self.id = id
         self.name = name
         self.image = image
+        self.selected = selected
     }
 }
